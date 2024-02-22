@@ -7,7 +7,7 @@ const reverseString = function(string) {
   for (let i = str.length; i >= 0 ; i--) {
     reversedString += string.charAt(i);
   }
-
+  
   return reversedString;
 
 };
